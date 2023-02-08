@@ -1,0 +1,29 @@
+<section class="ajouter_produit section">
+    <form  class="connexion form active" id="upload_file" enctype="multipart/form-data">
+
+      <h1 class="title">Ajouter un produit</h1>
+      <div class="input_container">
+        <label class="label">Nom du produit</label>
+        <input type="text" class="input" name="designation">
+      </div>
+      <div class="input_container">
+        <label class="label">Description</label>
+        <input type="text" class="input" name="description">
+      </div>
+      <div class="input_container">
+        <label class="label">Valeur d'estimation</label>
+        <input type="text" class="input number" name="prix">
+      </div>
+      <div class="input_container file">
+        <label for="file" class="label">Photo</label>
+        <input type="file" id="file" class="input file" name="files[]" multiple id="">
+      </div>
+      <div class="input_container">
+        <select id="options" name="id_categorie">
+          
+        </select>
+      </div>
+      <input type="submit" class="button" value="Ajouter" name="submit">
+
+    </form>
+  </section>
